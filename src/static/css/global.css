@@ -1,0 +1,28 @@
+:root {
+  --primary-color: hsl(180, 29%, 50%);
+  --bg-color: hsl(180, 52%, 96%);
+  --text-gray: hsl(180, 8%, 52%);
+  --text-dark: hsl(180, 14%, 20%);
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Spartan', sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body,
+html {
+  padding: 0;
+  margin: 0;
+  background: var(--bg-color);
+}
+
+.cards-container {
+  margin: 40px auto;
+  width: 90%;
+  height: auto;
+}

@@ -1,0 +1,101 @@
+.Card {
+  position: relative;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 45px;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.Card.is-featured {
+  border-left: var(--primary-color) 5px solid;
+}
+
+.Card-picture {
+  margin: 0;
+  padding: 0;
+}
+
+.Card-picture img {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: -25px;
+}
+
+.Card-header {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.Card-header > p {
+  margin-right: 15px;
+  font-weight: bold;
+  font-size: 1.4rem;
+  color: var(--primary-color);
+}
+
+.Card-status {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.Card-status span {
+  margin-right: 5px;
+  padding: 5px 8px 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1000px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  font-size: 1rem;
+}
+
+.status-new {
+  background: var(--primary-color);
+}
+
+.status-featured {
+  background: var(--text-dark);
+}
+
+.Card-info strong {
+  font-size: 1.5rem;
+  color: var(--text-dark);
+}
+
+.Card-info-details {
+  display: flex;
+  color: var(--text-gray);
+  font-size: 1.2rem;
+}
+
+.Card-info-details p:not(:first-child)::before {
+  margin: 0 4px;
+  content: '·';
+  font-weight: bold;
+}
+
+.Card-tags {
+  padding-top: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 1px solid var(--text-gray);
+}
+
+.Card-tags button {
+  padding: 4px 6px;
+  margin-right: 10px;
+  margin-top: 10px;
+  border-radius: 2px;
+  background: var(--bg-color);
+  color: var(--primary-color);
+  font-weight: bold;
+  font-size: 1.3rem;
+  border: none;
+}
