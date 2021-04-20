@@ -1,0 +1,63 @@
+.cards-container {
+  margin: 40px auto;
+  width: 90%;
+  height: auto;
+}
+
+.filters-container {
+  width: 90%;
+  margin: -25px auto 0;
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.filters {
+  flex: 1 1 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.clear-filters {
+  padding: 0 10px;
+  background: none;
+  font-weight: bold;
+  color: var(--primary-color);
+  border-radius: 5px;
+  border: 1.5px solid var(--primary-color);
+}
+
+.filter {
+  height: 30px;
+  margin: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-color);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.filter p {
+  padding: 0 8px;
+  flex: 1 1 auto;
+  font-weight: bold;
+  color: var(--primary-color);
+  font-size: 1.4rem;
+}
+
+.filter button {
+  height: 100%;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  font-size: 1.8rem;
+  background: var(--primary-color);
+  outline: none;
+  border: none;
+}

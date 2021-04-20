@@ -1,5 +1,5 @@
 .Header {
-  height: 120px;
+  height: 140px;
   background-image: url('../images/bg-header-mobile.svg');
   background-color: var(--primary-color);
 }

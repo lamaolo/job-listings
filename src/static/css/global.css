@@ -21,8 +21,18 @@ html {
   background: var(--bg-color);
 }
 
-.cards-container {
-  margin: 40px auto;
-  width: 90%;
-  height: auto;
+button {
+  cursor: pointer;
+  outline: none;
+  transition: box-shadow 0.05s ease-in-out;
+}
+
+button:active {
+  border: 1px solid var(--primary-color) !important;
+  box-shadow: 2px 2px 0px var(--primary-color);
+  outline: none;
+}
+
+button:focus {
+  border: 2px solid var(--primary-color);
 }

@@ -8,6 +8,7 @@ const Card = ({
   jobTitle,
   jobDetails,
   tags,
+  handleSetFilter,
 }) => {
   return (
     <article className={isFeatured ? 'Card is-featured' : 'Card'}>
@@ -35,7 +36,7 @@ const Card = ({
       <span className="separator"></span>
       <section className="Card-tags">
         {tags.map((tag) => (
-          <button>{tag}</button>
+          <button onClick={() => handleSetFilter(tag)}>{tag}</button>
         ))}
       </section>
     </article>
