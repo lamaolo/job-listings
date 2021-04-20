@@ -61,6 +61,18 @@
   border: none;
 }
 
+.credits-footer {
+  text-align: center;
+  max-width: 90%;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: var(--primary-color);
+}
+
+.credits-footer a {
+  color: var(--text-dark);
+}
+
 @media screen and (min-width: 768px) {
   .cards-container {
     margin: 40px auto;

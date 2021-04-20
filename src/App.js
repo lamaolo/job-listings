@@ -76,6 +76,23 @@ function App() {
           />
         ))}
       </main>
+      <footer className="credits-footer">
+        <p>
+          Challenge by{' '}
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.frontendmentor.io/challenges/job-listings-with-filtering-ivstIPCt"
+          >
+            FrontendMentor
+          </a>
+          . Coded by{' '}
+          <a target="_blank" rel="noreferrer" href="https://github.com/lamaolo">
+            Lucero Amaolo
+          </a>
+          .
+        </p>
+      </footer>
     </div>
   );
 }
