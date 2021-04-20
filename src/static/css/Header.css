@@ -2,4 +2,11 @@
   height: 140px;
   background-image: url('../images/bg-header-mobile.svg');
   background-color: var(--primary-color);
+  background-repeat: repeat;
+}
+
+@media screen and (min-width: 768px) {
+  .Header {
+    background-image: url('../images/bg-header-desktop.svg');
+  }
 }

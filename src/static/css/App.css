@@ -1,7 +1,6 @@
 .cards-container {
   margin: 40px auto;
   width: 90%;
-  height: auto;
 }
 
 .filters-container {
@@ -60,4 +59,17 @@
   background: var(--primary-color);
   outline: none;
   border: none;
+}
+
+@media screen and (min-width: 768px) {
+  .cards-container {
+    margin: 40px auto;
+    width: 90%;
+    max-width: 1400px;
+  }
+
+  .filters-container {
+    width: 90%;
+    max-width: 1400px;
+  }
 }
