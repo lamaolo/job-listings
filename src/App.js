@@ -25,6 +25,7 @@ function App() {
 
           // Comprobar que cada uno de los jobs mostrados tenga todos los tags que hay en los filtros
           if (filters.every((filter) => tags.includes(filter))) return job;
+          else return null;
         })
         .filter(Boolean); // Elimina los elementos nulos del array
 
