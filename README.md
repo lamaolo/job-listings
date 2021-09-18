@@ -6,5 +6,6 @@ Creado usando
   - CSS puro y responsive design
   - ReactJS
 <hr>
+
 - Challenge original: https://www.frontendmentor.io/challenges/job-listings-with-filtering-ivstIPCt
 - Mi solución: https://job-listings-with-filtering-frontendmentor-lamaolo.vercel.app/
